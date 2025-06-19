@@ -91,19 +91,17 @@
             key-positions = <38 39 40>;
         };
 
-        usb {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
+        USB {
             bindings = <&out OUT_USB>;
+            key-positions = <0 1>;
         };
 
-        bt {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
+        BT {
             bindings = <&out OUT_BLE>;
+            key-positions = <12 13>;
         };
         
-        caps {
+        CAPSY {
             bindings = <&kp CAPSLOCK>;
             key-positions = <24 25>;
         };
@@ -113,15 +111,15 @@
             key-positions = <36 37>;
         };
 
-        printscreen {
+        PRINTSC {
             bindings = <&kp PSCRN>;
             key-positions = <10 11>;
         };
 
-        raise {
+        RAISE {
             bindings = <&tog 1>;
             key-positions = <46 47>;
-        }
+        };
     };
 
     behaviors {
