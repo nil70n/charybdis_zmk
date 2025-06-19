@@ -120,7 +120,7 @@
         raise {
             bindings = <&tog 1>;
             key-positions = <46 47>;
-        }
+        };
     };
 
     behaviors {
